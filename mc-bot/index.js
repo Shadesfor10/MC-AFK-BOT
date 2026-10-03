@@ -14,9 +14,8 @@ app.listen(PORT, () => {
 // 2. BOT CONFIGURATION
 const botArgs = {
     host: 'gdgsmp.mineserver.uno', 
-    port: 50403,                   // Updated to your custom server port
-    username: 'KeepAliveBot_26_2', 
-    version: 776                   // Numeric protocol ID for Minecraft 26.2
+    port: 50403,                   // Your custom server port
+    username: 'KeepAliveBot_26_2'  // Version line removed so it auto-negotiates
 };
 
 let bot;
