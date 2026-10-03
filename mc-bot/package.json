@@ -1,0 +1,16 @@
+{
+  "name": "mc-login-bot",
+  "version": "1.0.0",
+  "description": "Minecraft keep-alive bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mineflayer": "^4.24.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
